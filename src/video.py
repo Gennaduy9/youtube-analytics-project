@@ -14,6 +14,8 @@ class Video:
         except IndexError:
             self.video_title = None
             self.like_count = None
+            self.video_url = None
+            self.view_count = None
         finally:
             print('Все работает! Ошибок нет.')
 
